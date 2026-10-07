@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int angka;
+    cout << "Masukkan angka: ";
+    cin >> angka;
+    if (angka % 2 == 0)
+    {
+        cout << "Angka GENAP" << endl;
+    }
+    else
+    {
+        cout << "Angka GANJIL" << endl;
+    }
+    return 0;
+}
